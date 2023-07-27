@@ -1,0 +1,12 @@
+type UntitledModel @model @auth(rules: [{allow: public}]) {
+  id: ID!
+  name: String
+  date: AWSDate
+  tags: String
+  category: String
+  afirmacion: String
+  analisis: String
+  veredicto: String
+  imag: String
+  description: String
+}
