@@ -1,0 +1,59 @@
+
+.container-howwedo {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .fact-checking-methods {
+    margin-bottom: 20px;
+  }
+  
+  .fact-checking-methods h2 {
+    font-size: 24px;
+    color: #333;
+  }
+  
+  .fact-checking-methods p {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #666;
+  }
+  
+  .fact-checking-methods ul {
+    list-style-type: disc;
+    margin-top: 10px;
+    margin-left: 20px;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #666;
+  }
+  
+  .fact-checking-container {
+    margin-bottom: 40px;
+  }
+  
+  .fact-checking-container h2 {
+    font-size: 24px;
+    color: #333;
+  }
+  
+  .fact-checking-container p {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #666;
+  }
+  
+  .fact-checking-container ol {
+    list-style-type: decimal;
+    margin-top: 10px;
+    margin-left: 20px;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #666;
+  }
+  
+  .fact-checking-container li {
+    margin-bottom: 10px;
+  }
+  

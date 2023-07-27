@@ -1,0 +1,157 @@
+* {
+  box-sizing: border-box;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: block;
+}
+
+[class*="col-"] {
+  float: left;
+  padding: 15px;
+}
+
+html {
+  font-family: "Lucida Sans", sans-serif;
+}
+
+.header {
+  background-color: #2b0f7e;
+  color: #ffffff;
+  padding: 5px;
+  height: 90px; /* Add the desired height value */
+}
+
+/* .full-footer {
+  background-color: #2b0f7e;
+
+} */
+
+.menu ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  cursor: pointer;
+  
+}
+
+.menu li {
+  padding: 8px;
+  margin-bottom: 7px;
+  background-color: #59e48e;
+  color: black;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  
+}
+
+.menu li:hover {
+  background-color: #0099cc;
+}
+.aside h2 {
+  font-weight: 900;
+}
+
+.aside {
+  background-color: #eb4c7f;
+  padding: 15px;
+  color: black;
+   text-align: center; 
+  font-size: 14px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+.about-link:hover {
+  color: #425ee9;
+  /* Add specific hover styles for the 'about' link */
+}
+
+.howdo-link:hover {
+  color: #425ee9;
+  /* Add specific hover styles for the 'howdo' link */
+}
+
+
+
+.footer {
+  background-color: #2b0f7e;
+  color: #ffffff;
+  text-align: center;
+  font-size: 12px;
+  padding: 15px;
+  
+}
+.footer-n {
+  margin-top: 50px;
+}
+
+/* For desktop: */
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  [class*="col-"] {
+    width: 100%;
+  }
+}
+
+.social-links,
+.quick-links {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+
+.social-links {
+  display: flex;
+  gap: 10px;
+}
+
+.social-links li,
+.quick-links li {
+  margin-bottom: 10px;
+  
+}
+.center {
+  display: flex;
+  justify-content: center;
+}
+.underlinetx {
+  background: var(--primary-500);
+  width: 15rem;
+  height: 0.25rem;
+  
+  margin-top: -0.25rem;
+  margin-bottom: 2.5rem;
+}
+
+.social-links a,
+.quick-links a {
+  color: var(--color-3);
+  font-size: 1.2rem;
+  text-decoration: none;
+ 
+}
+.social-links a {
+ 
+  color: #fff;
+  font-size: 30px;
+  margin-right: 15px;
+  color: #e94272;
+}
+.social-links a:hover {
+  /* color: #68ebca; */
+  color: #46f2b6;
+}

@@ -1,0 +1,44 @@
+.scam-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 40px;
+    background-color: #f1f1f1;
+    border-radius: 8px;
+  }
+  
+  .scam-title {
+    font-size: 32px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .scam-description {
+    font-size: 18px;
+    color: #555;
+    margin-bottom: 30px;
+  }
+  
+  .scam-warning {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .scam-list {
+    font-size: 16px;
+    color: #555;
+    list-style-type: decimal;
+    padding-left: 20px;
+  }
+  
+  .scam-item {
+    margin-bottom: 10px;
+  }
+  
+  .scam-number {
+    font-weight: bold;
+    margin-right: 5px;
+  }
+  

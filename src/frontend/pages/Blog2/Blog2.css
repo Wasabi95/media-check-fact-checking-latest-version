@@ -1,0 +1,46 @@
+.clickbait-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 40px;
+    background-color: #f1f1f1;
+    border-radius: 8px;
+    margin-top: 50px;
+  }
+  
+  .clickbait-title {
+    font-size: 32px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .clickbait-description {
+    font-size: 18px;
+    color: #555;
+    margin-bottom: 30px;
+  }
+  
+  .spotting-title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .spotting-list {
+    font-size: 16px;
+    color: #555;
+    list-style-type: decimal;
+    padding-left: 20px;
+  }
+  
+  .spotting-item {
+    margin-bottom: 10px;
+  }
+  
+  .spotting-number {
+    font-weight: bold;
+    margin-right: 5px;
+  }
+  
+  

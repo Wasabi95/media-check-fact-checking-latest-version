@@ -1,0 +1,51 @@
+
+.about-us-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+  }
+  
+  .about-us-heading {
+    font-size: 28px;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .about-us-content {
+    font-size: 26px;
+    line-height: 1.5;
+  }
+  
+  .about-us-content p {
+    margin-bottom: 10px;
+  }
+  
+  /* Optional: Add additional styles to enhance the visual appearance */
+  .about-us-content p:first-of-type {
+    margin-top: 0;
+  }
+  
+  .about-us-content p:last-of-type {
+    margin-bottom: 0;
+  }
+  
+  /* Example: Add a background color and padding to the container */
+  .about-us-container {
+    background-color: #f4f4f4;
+    padding: 20px;
+  }
+  
+  /* Example: Add a border and box-shadow to the container */
+  .about-us-container {
+    border: 1px solid #ccc;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Example: Add some spacing between paragraphs */
+  .about-us-content p {
+    margin-bottom: 15px;
+  }
+  
+  
